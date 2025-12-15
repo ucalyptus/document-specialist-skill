@@ -1,12 +1,8 @@
 ---
-name: "documentation-specialist"
-description: |
-  This skill should be used when creating professional software documentation (SRS, PRD, OpenAPI,
-  user manuals, tutorials, runbooks) from templates (greenfield) or reverse-engineering documentation
-  from existing code like Spring Boot or FastAPI (brownfield). Also handles documentation audits/reviews,
-  format conversion (Markdown, DOCX, PDF), and diagram generation (C4, Mermaid, PlantUML, ER, sequence).
-version: "3.0-PDA"
-allowed-tools: ["Read", "Write", "Edit", "Glob", "Grep", "Bash", "Skill"]
+name: documentation-specialist
+description: This skill should be used when creating professional software documentation (SRS, PRD, OpenAPI, user manuals, tutorials, runbooks) from templates (greenfield) or reverse-engineering documentation from existing code like Spring Boot or FastAPI (brownfield). Also handles documentation audits/reviews, format conversion (Markdown, DOCX, PDF), and diagram generation (C4, Mermaid, PlantUML, ER, sequence).
+version: 3.0-PDA
+allowed-tools: [Read, Write, Edit, Glob, Grep, Bash, Skill]
 ---
 
 # Documentation Specialist Skill
